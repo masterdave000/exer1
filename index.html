@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+        
+       <div class="form-input">
+            <label for="number1">Enter Number 1: </label>
+            <input type="number" name="number1" id="number1">
+        </div>
+        <div class="form-input">
+            <label for="number2">Enter Number 2: </label>
+            <input type="number" name="number2" id="number2">
+        </div>
+        <br>
+        
+        <div class="form-button"></div>
+            <button type="submit" id="sumButton" onclick="add()">Add</button>
+            <button type="submit" id="diffButton" onclick="diff()">Subtract</button>
+            <p style="display:none" id="sum"></p>
+            <p style="display:none" id="difference"></p>    
+        </div>
+        
+        
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
